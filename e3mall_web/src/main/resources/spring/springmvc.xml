@@ -23,5 +23,6 @@
 	<dubbo:application name="e3mall_web" />
 	<dubbo:registry protocol="zookeeper" address="192.168.80.128:2181"></dubbo:registry>
 	<dubbo:reference interface="cn.e3mall.service.ItemService" id="itemService" ></dubbo:reference>
+	<dubbo:reference interface="cn.e3mall.service.ItemCatService" id="itemCatService" ></dubbo:reference>
 	
 </beans>
